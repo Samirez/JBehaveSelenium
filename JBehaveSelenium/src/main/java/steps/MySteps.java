@@ -15,6 +15,10 @@ import org.junit.Assert;
 public class MySteps extends Steps {
 	
 	private static WebDriver driver = null;
+
+	public static void main(String[] args){
+
+	}
 	
 	@Given("the browser is open")
 	public void openBrowser () {
