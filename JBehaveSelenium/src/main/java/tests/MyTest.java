@@ -17,8 +17,12 @@ import com.github.valfirst.jbehave.junit.monitoring.JUnitReportingRunner;
 
 import steps.MySteps;
 
+
 @RunWith(JUnitReportingRunner.class)
 public class MyTest extends JUnitStories {
+	public static void main(String[] args){
+		
+	}
 
 	public MyTest() {
 		super();
